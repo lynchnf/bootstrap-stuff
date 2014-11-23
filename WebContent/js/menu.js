@@ -59,7 +59,6 @@ MyMenu.openAncestors = function($this) {
         MyMenu.openAncestors($grandparent);
         $grandparent.addClass('open');
     }
-    console.log($grandparent);
 }
 
 $('[data-toggle="dropdown"]').on('click', MyMenu.toggle);
